@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCVN8VPHmsmUsFA4fsuxQ5DO2PSLiJjFGg",
+  authDomain: "simple-todo-project-22a5f.firebaseapp.com",
+  projectId: "simple-todo-project-22a5f",
+  storageBucket: "simple-todo-project-22a5f.appspot.com",
+  messagingSenderId: "789242465295",
+  appId: "1:789242465295:web:575aa5be162a953a19277a"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+      <script>
+        // make auth and firestore references
+        const db = firebase.firestore();
+      </script>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
