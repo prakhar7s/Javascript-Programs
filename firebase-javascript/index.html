@@ -17,14 +17,43 @@
 
     <script>
         // Your web app's Firebase configuration
+  //       var firebaseConfig = {
+  //           apiKey: "AIzaSyCVN8VPHmsmUsFA4fsuxQ5DO2PSLiJjFGg",
+  // authDomain: "simple-todo-project-22a5f.firebaseapp.com",
+  // projectId: "simple-todo-project-22a5f",
+  // storageBucket: "simple-todo-project-22a5f.appspot.com",
+  // messagingSenderId: "789242465295",
+  // appId: "1:789242465295:web:575aa5be162a953a19277a"
+  //       };
+  const REACT_APP_FIREBASE_APIKEY = 'AIzaSyB_KguSj9jEOeRR-HaAJg4LlkV5veJYhJc'
+const REACT_APP_FIREBASE_AUTH_DOMAIN = 'urbanletting-6afef.firebaseapp.com'
+const REACT_APP_FIREBASE_PROJECT_ID = 'urbanletting-6afef'
+const REACT_APP_FIREBASE_STORAGE_BUCKET = 'urbanletting-6afef.appspot.com'
+const REACT_APP_FIREBASE_MESSAGING_SENDER_ID = '809051205065'
+const REACT_APP_FIREBASE_APP_ID = '1:809051205065:web:dd1ff92912331975e6cc18'
+
+
         var firebaseConfig = {
-            apiKey: "AIzaSyCVN8VPHmsmUsFA4fsuxQ5DO2PSLiJjFGg",
-  authDomain: "simple-todo-project-22a5f.firebaseapp.com",
-  projectId: "simple-todo-project-22a5f",
-  storageBucket: "simple-todo-project-22a5f.appspot.com",
-  messagingSenderId: "789242465295",
-  appId: "1:789242465295:web:575aa5be162a953a19277a"
+            apiKey: REACT_APP_FIREBASE_APIKEY,
+  authDomain: REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: REACT_APP_FIREBASE_APP_ID
         };
+
+//   const firebaseConfig = {
+//   apiKey: "AIzaSyCvT24vDO_TNEg83l23oR2TwiuWzmWDS8k",
+//   authDomain: "khub-ka.firebaseapp.com",
+//   projectId: "khub-ka",
+//   storageBucket: "khub-ka.appspot.com",
+//   messagingSenderId: "145378774966",
+//   appId: "1:145378774966:web:0a9c54ebbeb42cbb0cbb17"
+// };
+
+
+
+
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
       </script>
